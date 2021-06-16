@@ -1,0 +1,16 @@
+.frame{
+    padding: 20px;
+    width: 700px;
+    height: fit-content;
+    overflow: hidden;
+    background-color: #c7c9c7;
+    border-radius: 10px;
+    margin-top: 20px;
+    box-shadow: 10px 5px 5px #262525;
+}
+
+@media (max-width: 710px) {
+    .frame{
+        width: 320px;
+    }
+}

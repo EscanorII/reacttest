@@ -1,0 +1,41 @@
+.image{
+    width: 100%;
+}
+
+.div_image{
+    object-fit: cover;
+}
+
+
+.btns{
+    display: flex;
+    justify-content: center;
+    overflow: hidden;
+    margin-top: 10px;
+    font-size: 20px;
+    font-family: cursive;
+
+}
+
+.btn1{
+    background-color: #08c120;
+    border-radius: 3px;
+}
+.btn2{
+    background-color: #db1717;
+    border-radius: 3px;
+}
+
+.btn3{
+    background-color: #75f11a;
+    border-radius: 3px;
+}
+
+.btns button{
+    margin: 0 10px;
+}
+
+.btns button:hover{
+    background: #f8ef63;
+}
+

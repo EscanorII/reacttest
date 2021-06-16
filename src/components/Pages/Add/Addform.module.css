@@ -1,0 +1,21 @@
+.input{
+    width: 100%;
+}
+
+.form{
+    font-size: 25px;
+}
+
+.btn{
+    margin-top: 20px;
+    background: #0aa30d;
+    width: 40%;
+    height: 50px;
+    border-radius: 4px;
+}
+
+.btn_div{
+    display: flex;
+    justify-content: flex-end;
+
+}
