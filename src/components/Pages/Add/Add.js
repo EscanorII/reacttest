@@ -4,7 +4,7 @@ import Addform from "./Addform";
 
 function  Add() {
     function saver(readyObj) {
-        fetch("https://like-or-dislike-fb001-default-rtdb.europe-west1.firebasedatabase.app/",
+        fetch("https://like-or-dislike-fb001-default-rtdb.europe-west1.firebasedatabase.app/app_like_dislike.json",
             {
                 method:"POST",
                 body: JSON.stringify(readyObj),
